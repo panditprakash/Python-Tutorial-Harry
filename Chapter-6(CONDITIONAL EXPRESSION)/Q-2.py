@@ -4,7 +4,7 @@ maths = int(input("Enter a maths score"))
 physics = int(input("Enter a physics score"))
 chemistry = int(input("Enter a chemistry score"))
 
-total_percentage =((100)*(maths+physics+chemistry))/300
+total_percentage =((maths+physics+chemistry)*(100))/300
 if(total_percentage>=40 and maths>=33 and chemistry>=33 and physics>=33):
     print("you are pass",total_percentage)
 else:
